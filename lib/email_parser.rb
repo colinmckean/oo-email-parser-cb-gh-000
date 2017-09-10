@@ -8,6 +8,6 @@ class EmailParser
     @emails = emails
   end
   def parse
-    @emails.split(" ").map {|email| email.split(", ") }flatten.uniq.
+    @emails.split(" ").map {|email| email.split(", ") }.flatten.uniq
   end
 end
