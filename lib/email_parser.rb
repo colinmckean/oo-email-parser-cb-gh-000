@@ -6,7 +6,7 @@ class EmailParser
   def initialize(csv)
 
   end
-  def self.parse
+  def parse
 
   end
 end
